@@ -110,11 +110,11 @@ img {
 }
 
 .sec-title {
-  /* w680+m0-a+bg#5f5 */
-  /* width: 680px;
-  margin: 0 auto; */
-  /* background: #5f5; */
-  text-align: center; /* tac */
+  display: flex;
+  flex-direction: column; /* fxdc */
+  /* background: #ff0; */
+  gap: 32px;
+  align-items: center; /* aic */
 }
 
 .sec-title h2 {
@@ -128,7 +128,6 @@ img {
 .sec-title p {
   /* fz20+mt32+lh1.5 */
   font-size: 20px;
-  margin-top: 32px;
   line-height: 1.5;
   color: #666;
 }
@@ -144,7 +143,6 @@ img {
 
   display: inline-block; /* dib */
   padding: 10px 30px;
-  margin-top: 32px;
 }
 
 .best-list {
